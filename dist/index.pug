@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="./css/style.css")
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+		title Mike Smith Portfolio
+	body
+		header
+			.menu-btn 
+				span.menu-btn_burger 
+
+			nav.nav 
+				ul.menu-nav
+					li.menu-nav_item.active
+						a.menu-nav_link(href="index.html") Home
+					li.menu-nav_item
+						a.menu-nav_link(href="about.html") About Me
+					li.menu-nav_item
+						a.menu-nav_link(href="projects.html") My Projects
+					li.menu-nav_item
+						a.menu-nav_link(href="contacts.html") Contact Me
+
+		main
+			section.home
+				h2 Hi! My name is
+				h1.home_name Mike
+					span.home_name--last Smith
+				h2 Web Developer, Designer & Programmer.
+
+				.social-icons
+					a(href="#")
+						i.fab.fa-twitter.fa-2x 
+					a(href="#")
+						i.fab.fa-facebook.fa-2x 
+					a(href="#")
+						i.fab.fa-instagram.fa-2x 
+					a(href="#")
+						i.fab.fa-github.fa-2x 
+
+				footer &copy; Copyright 2023
+
+		script(src="./dist/js/index.js") 
